@@ -46,5 +46,5 @@ The database contains 6 related tables:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/balnur-akylbek/ice-skating-analytics
+git clone https://github.com/balnur-akylbek/Arctic-Edge-Analytics
 cd ice-skating-analytics
