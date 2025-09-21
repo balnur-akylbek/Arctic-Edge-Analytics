@@ -1,34 +1,52 @@
-# Arctic Edge Analytics – Skating Performance Project
+# ❄️ Arctic Edge Analytics — Figure Skating Insights
 
-## 📌 Company Overview
-Arctic Edge Analytics is a sports data company specializing in figure skating event analysis.  
-We provide insights into skater performance, judging consistency, and event-level statistics.  
-Our mission is to support athletes, coaches, and event organizers with clear, data-driven insights.  
+## 🏢 Company Overview
+**Arctic Edge Analytics** — аналитическая компания, специализирующаяся на статистике и визуализации данных по фигурному катанию.  
+✨ Наша цель — раскрывать ключевые тенденции в спортивных соревнованиях, анализировать выступления спортсменов и предоставлять инсайты для тренеров, федераций и болельщиков.  
 
 ---
 
 ## 📊 Project Overview
-This project analyzes scraped figure skating competition data.  
-The database contains multiple tables with event details, skater scores, official assignments, and judging metrics.  
-We perform SQL queries to answer analytical questions such as:
-- Average skater age by level
-- Technical and component scores per event
-- Distribution of placements across regions
-- Official assignments by location
-- Historical trends in event participation
+Этот проект посвящён анализу данных о соревнованиях по фигурному катанию.  
+В базе данных отражены детали событий, оценки судей, результаты спортсменов и региональная информация.  
+
+Основные направления аналитики:
+- 📌 Количество соревнований по регионам  
+- ⛸️ Средний возраст участников по уровням  
+- 🏅 Лучшие технические и компонентные оценки  
+- 🌍 География судей и распределение по странам  
+- 📈 Тренды в результатах по датам и категориям  
 
 ---
 
-## 🖼️ Screenshot 
+## 🗂️ ER Diagram
+<img width="819" height="558" alt="image" src="https://github.com/user-attachments/assets/9626c504-3204-4cc2-b5e8-845bcf9f2613" />
 
-<img width="819" height="558" alt="image" src="https://github.com/user-attachments/assets/7cd56e45-86cb-4945-ab56-8e58a74931ab" />
 
+База данных содержит 6 связанных таблиц:  
+- `scraped_event_details` — события (даты, уровни, категории, регион)  
+- `scraped_official_details` — судьи (имена, города, страны)  
+- `scraped_component_scores` — компонентные оценки (J1–J9, средний балл панели)  
+- `scraped_skater_details` — спортсмены (имя, возраст, пол, уровень)  
+- `scraped_technical_scores` — технические оценки (GOE, элементы, итоговый балл)  
+- `supplementaldata_officiallocations` — справочник регионов и стран  
 
 ---
 
-## ⚙️ How to Run the Project
+## 🛠️ Tools & Resources
+- **PostgreSQL** — база данных  
+- **Python** (`psycopg2`, `SQLAlchemy`) — выполнение SQL-запросов  
+- **Apache Superset** — визуализация аналитики  
+- **GitHub** — хранение кода и документации  
+- **Dataset** — данные, собранные по официальным соревнованиям  
 
-### 1. Clone the repository
+---
+
+## 🚀 Instructions
+
+### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/YOUR_USERNAME/ice-skating-analytics.git
 cd ice-skating-analytics
+
+
