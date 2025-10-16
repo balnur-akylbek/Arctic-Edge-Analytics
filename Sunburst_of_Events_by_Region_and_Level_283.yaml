@@ -1,0 +1,39 @@
+slice_name: Sunburst of Events by Region and Level
+description: null
+certified_by: null
+certification_details: null
+viz_type: sunburst_v2
+params:
+  datasource: 26__table
+  viz_type: sunburst_v2
+  columns:
+  - Level
+  - Event
+  - Region
+  metric: count
+  secondary_metric: count
+  adhoc_filters:
+  - clause: WHERE
+    subject: Event_Date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  row_limit: 10000
+  color_scheme: supersetAndPresetColors
+  linear_color_scheme: superset_seq_1
+  show_labels: true
+  show_labels_threshold: 5
+  show_total: false
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 13
+query_context: '{"datasource":{"id":26,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Event_Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Level","Event","Region"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"26__table","viz_type":"sunburst_v2","columns":["Level","Event","Region"],"metric":"count","secondary_metric":"count","adhoc_filters":[{"clause":"WHERE","subject":"Event_Date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":10000,"color_scheme":"supersetAndPresetColors","linear_color_scheme":"superset_seq_1","show_labels":true,"show_labels_threshold":5,"show_total":false,"label_type":"key","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[13],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: b325e5d2-fd26-4c48-8144-e64833bcb3e3
+version: 1.0.0
+dataset_uuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92

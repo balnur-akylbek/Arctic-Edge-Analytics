@@ -1,0 +1,39 @@
+slice_name: "Normalized Skater Segment Scores (0\u20131 Scale)"
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 28__table
+  viz_type: table
+  query_mode: raw
+  groupby: []
+  temporal_columns_lookup: {}
+  metrics: []
+  all_columns:
+  - Skater_Name
+  - Total_Segment_Score
+  - Normalized_Segment_Score
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  row_limit: 10000
+  table_timestamp_format: smart_date
+  allow_render_html: true
+  column_config:
+    Normalized_Segment_Score:
+      d3NumberFormat: ',d'
+  show_cell_bars: true
+  color_pn: true
+  conditional_formatting:
+  - column: Normalized_Segment_Score
+    colorScheme: '#ACE1C4'
+    operator: None
+  extra_form_data: {}
+  dashboards:
+  - 14
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Skater_Name","Total_Segment_Score","Normalized_Segment_Score"],"orderby":[],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"28__table","viz_type":"table","query_mode":"raw","groupby":[],"temporal_columns_lookup":{},"metrics":[],"all_columns":["Skater_Name","Total_Segment_Score","Normalized_Segment_Score"],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"row_limit":10000,"table_timestamp_format":"smart_date","allow_render_html":true,"column_config":{"Normalized_Segment_Score":{"d3NumberFormat":",d"}},"show_cell_bars":true,"color_pn":true,"conditional_formatting":[{"column":"Normalized_Segment_Score","colorScheme":"#ACE1C4","operator":"None"}],"extra_form_data":{},"dashboards":[14],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: c7b7660b-a8ec-4954-8b2a-6351517eca6b
+version: 1.0.0
+dataset_uuid: 77ef1e4c-aa87-439d-8345-2dc133748de8

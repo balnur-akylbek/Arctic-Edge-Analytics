@@ -1,0 +1,31 @@
+slice_name: "\u0420\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\
+  \u0435 GOE \u0431\u0430\u043B\u043B\u043E\u0432"
+description: null
+certified_by: null
+certification_details: null
+viz_type: histogram_v2
+params:
+  datasource: 39__table
+  viz_type: histogram_v2
+  slice_id: 164
+  column: GOE
+  groupby: []
+  adhoc_filters: []
+  row_limit: 1000
+  bins: 20
+  color_scheme: supersetColors
+  show_value: false
+  show_legend: true
+  x_axis_title: GOE (Grade of Execution)
+  x_axis_format: SMART_NUMBER
+  y_axis_title: Frequency
+  y_axis_format: SMART_NUMBER
+  extra_form_data: {}
+  dashboards:
+  - 13
+query_context: '{"datasource":{"id":39,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["GOE"],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"histogram","options":{"column":"GOE","groupby":[],"bins":20}}]}],"form_data":{"datasource":"39__table","viz_type":"histogram_v2","slice_id":164,"column":"GOE","groupby":[],"adhoc_filters":[],"row_limit":1000,"bins":20,"color_scheme":"supersetColors","show_value":false,"show_legend":true,"x_axis_title":"GOE
+  (Grade of Execution)","x_axis_format":"SMART_NUMBER","y_axis_title":"Frequency","y_axis_format":"SMART_NUMBER","extra_form_data":{},"dashboards":[13],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: bda3b7b2-02a4-4d10-bf98-c5c6038c3f90
+version: 1.0.0
+dataset_uuid: 4365b80e-38c4-4be3-8838-e556de1162f0

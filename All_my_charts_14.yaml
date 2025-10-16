@@ -1,0 +1,943 @@
+dashboard_title: All my charts
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 8d447898-cd91-4868-b125-020474b8af0e
+position:
+  CHART-0CBA1X7c3KHxPdbxEsOeE:
+    children: []
+    id: CHART-0CBA1X7c3KHxPdbxEsOeE
+    meta:
+      chartId: 283
+      height: 50
+      sliceName: Sunburst of Events by Region and Level
+      uuid: b325e5d2-fd26-4c48-8144-e64833bcb3e3
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-zseQ9bQMSIGini3jjgr0q
+    type: CHART
+  CHART-0t9B7yYyBsRYhpeH4tkqK:
+    children: []
+    id: CHART-0t9B7yYyBsRYhpeH4tkqK
+    meta:
+      chartId: 285
+      height: 50
+      sliceName: Most Frequent Regions
+      uuid: 00aed193-241d-4c83-99a7-36ec759e2e41
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-5OhzT55Mn24-O_wiLI9hi
+    type: CHART
+  CHART-3tHg1WTm1gDfs_GfjaepL:
+    children: []
+    id: CHART-3tHg1WTm1gDfs_GfjaepL
+    meta:
+      chartId: 282
+      height: 50
+      sliceName: Heatmap of Events by Level and Month
+      uuid: 88c37272-a58d-4e5c-83b5-51acb1ad4673
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-ErzuKnvjSUFLYlwKkA6l8
+    type: CHART
+  CHART-4qXRhG0hDm9_VlOdo8BbY:
+    children: []
+    id: CHART-4qXRhG0hDm9_VlOdo8BbY
+    meta:
+      chartId: 280
+      height: 50
+      sliceName: Heatmap of Event Distribution Across Regions
+      uuid: 518975f0-8347-4b42-89e9-4c516a8c025c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-zseQ9bQMSIGini3jjgr0q
+    type: CHART
+  CHART-7jD4EV7HB6cI11tvWjRAJ:
+    children: []
+    id: CHART-7jD4EV7HB6cI11tvWjRAJ
+    meta:
+      chartId: 164
+      height: 50
+      sliceName: "\u0420\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\
+        \u0438\u0435 GOE \u0431\u0430\u043B\u043B\u043E\u0432"
+      uuid: bda3b7b2-02a4-4d10-bf98-c5c6038c3f90
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-zseQ9bQMSIGini3jjgr0q
+    type: CHART
+  CHART-EWs3-dZurD9m0K0vpi8RY:
+    children: []
+    id: CHART-EWs3-dZurD9m0K0vpi8RY
+    meta:
+      chartId: 165
+      height: 50
+      sliceName: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435\
+        \ vs \u041A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442\u043D\u044B\u0435\
+        \ \u0431\u0430\u043B\u043B\u044B \u043F\u043E \u0443\u0440\u043E\u0432\u043D\
+        \u044E"
+      uuid: dbb21c57-6981-42fa-b286-b3b1a62903bc
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-fT7jgPsbGEmlGP_muv1Rn
+    type: CHART
+  CHART-LYzRn7BOnn_3BhDp9EjNF:
+    children: []
+    id: CHART-LYzRn7BOnn_3BhDp9EjNF
+    meta:
+      chartId: 281
+      height: 50
+      sliceName: Heatmap of Events by Region and Level
+      uuid: 27aa0512-11d0-4681-b3f1-bfc60963c055
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-5OhzT55Mn24-O_wiLI9hi
+    type: CHART
+  CHART-Q03Xpct95z_-E0pOTm13i:
+    children: []
+    id: CHART-Q03Xpct95z_-E0pOTm13i
+    meta:
+      chartId: 162
+      height: 50
+      sliceName: "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\
+        \u0443\u0434\u0435\u0439 \u043F\u043E \u0441\u0442\u0440\u0430\u043D\u0430\
+        \u043C"
+      uuid: a6710317-7b97-420e-b248-286f0db47b2e
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-gHRAW2z6vSbhZLNhjWU_V
+    type: CHART
+  CHART-dK1vaY_0prGtEZ4UlF8ue:
+    children: []
+    id: CHART-dK1vaY_0prGtEZ4UlF8ue
+    meta:
+      chartId: 284
+      height: 50
+      sliceName: Treemap of Events by Region and Level
+      uuid: 9803df0a-076d-4728-8c91-5eb386e2d240
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-ErzuKnvjSUFLYlwKkA6l8
+    type: CHART
+  CHART-explore-403-1:
+    children: []
+    id: CHART-explore-403-1
+    meta:
+      chartId: 403
+      height: 50
+      sliceName: Event Level Categorization by Region
+      uuid: eb8e227b-5a29-42b3-b847-30dd9e869428
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-0-7g-SvlzUMLe0QNJqoZw
+    type: CHART
+  CHART-explore-404-1:
+    children: []
+    id: CHART-explore-404-1
+    meta:
+      chartId: 404
+      height: 50
+      sliceName: 'Skater Metrics: Average, Median, and Growth Rate by Placement'
+      uuid: 13d6ed97-0297-4c81-845a-0593f16f2788
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-lfnjM0GHhSn6njRHQPNAz
+    type: CHART
+  CHART-explore-405-1:
+    children: []
+    id: CHART-explore-405-1
+    meta:
+      chartId: 405
+      height: 50
+      sliceName: "Normalized Skater Segment Scores (0\u20131 Scale)"
+      uuid: c7b7660b-a8ec-4954-8b2a-6351517eca6b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-lfnjM0GHhSn6njRHQPNAz
+    type: CHART
+  CHART-iV0z_MMVt11b9NwpCfcd2:
+    children: []
+    id: CHART-iV0z_MMVt11b9NwpCfcd2
+    meta:
+      chartId: 161
+      height: 50
+      sliceName: "\u0421\u0440\u0435\u0434\u043D\u0435\u0435 \u0447\u0438\u0441\u043B\
+        \u043E \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432 \u043F\
+        \u043E \u0443\u0440\u043E\u0432\u043D\u044E \u0441\u043E\u0440\u0435\u0432\
+        \u043D\u043E\u0432\u0430\u043D\u0438\u044F"
+      uuid: 76227bc2-765e-448e-b3de-a4898d2f9f5a
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-fT7jgPsbGEmlGP_muv1Rn
+    type: CHART
+  CHART-jJ_Hk4Z5T-T5UmtP2PMcP:
+    children: []
+    id: CHART-jJ_Hk4Z5T-T5UmtP2PMcP
+    meta:
+      chartId: 286
+      height: 50
+      sliceName: "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\
+        \u043E\u0431\u044B\u0442\u0438\u0439: \u0416\u0438\u0432\u044B\u0435 \u0434\
+        \u0430\u043D\u043D\u044B\u0435 (PostgreSQL) vs \u0421\u0442\u0430\u0442\u0438\
+        \u0447\u0435\u0441\u043A\u0438\u0435 (CSV)"
+      uuid: e65f8082-4840-4251-bbd9-271762e6d6a7
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-5OhzT55Mn24-O_wiLI9hi
+    type: CHART
+  CHART-wI9f_Pm8QUBuRCgvzqSpB:
+    children: []
+    id: CHART-wI9f_Pm8QUBuRCgvzqSpB
+    meta:
+      chartId: 160
+      height: 50
+      sliceName: "\u0420\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\
+        \u0438\u0435 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432\
+        \ \u043F\u043E \u0440\u0435\u0433\u0438\u043E\u043D\u0430\u043C"
+      uuid: 4dc545d8-9ed4-4dc4-8d25-b76a121670ac
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-ErzuKnvjSUFLYlwKkA6l8
+    type: CHART
+  CHART-yzvzgr0gL12CDiTZ3STzJ:
+    children: []
+    id: CHART-yzvzgr0gL12CDiTZ3STzJ
+    meta:
+      chartId: 163
+      height: 50
+      sliceName: "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\
+        \u043E\u0431\u044B\u0442\u0438\u0439 \u043F\u043E \u0434\u0430\u0442\u0430\
+        \u043C (\u041E\u043A\u0442\u044F\u0431\u0440\u044C)"
+      uuid: 82b2b1e1-338e-4d1e-b898-3325d8ca2a77
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-fT7jgPsbGEmlGP_muv1Rn
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-5OhzT55Mn24-O_wiLI9hi
+    - ROW-ErzuKnvjSUFLYlwKkA6l8
+    - ROW-zseQ9bQMSIGini3jjgr0q
+    - ROW-fT7jgPsbGEmlGP_muv1Rn
+    - ROW-gHRAW2z6vSbhZLNhjWU_V
+    - ROW-0-7g-SvlzUMLe0QNJqoZw
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: All my charts
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-0-7g-SvlzUMLe0QNJqoZw:
+    children:
+    - CHART-explore-404-1
+    id: ROW-0-7g-SvlzUMLe0QNJqoZw
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-5OhzT55Mn24-O_wiLI9hi:
+    children:
+    - CHART-jJ_Hk4Z5T-T5UmtP2PMcP
+    - CHART-0t9B7yYyBsRYhpeH4tkqK
+    - CHART-LYzRn7BOnn_3BhDp9EjNF
+    id: ROW-5OhzT55Mn24-O_wiLI9hi
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-ErzuKnvjSUFLYlwKkA6l8:
+    children:
+    - CHART-3tHg1WTm1gDfs_GfjaepL
+    - CHART-dK1vaY_0prGtEZ4UlF8ue
+    - CHART-wI9f_Pm8QUBuRCgvzqSpB
+    id: ROW-ErzuKnvjSUFLYlwKkA6l8
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-fT7jgPsbGEmlGP_muv1Rn:
+    children:
+    - CHART-yzvzgr0gL12CDiTZ3STzJ
+    - CHART-iV0z_MMVt11b9NwpCfcd2
+    - CHART-EWs3-dZurD9m0K0vpi8RY
+    id: ROW-fT7jgPsbGEmlGP_muv1Rn
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-gHRAW2z6vSbhZLNhjWU_V:
+    children:
+    - CHART-Q03Xpct95z_-E0pOTm13i
+    - CHART-explore-403-1
+    - CHART-explore-405-1
+    id: ROW-gHRAW2z6vSbhZLNhjWU_V
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-zseQ9bQMSIGini3jjgr0q:
+    children:
+    - CHART-0CBA1X7c3KHxPdbxEsOeE
+    - CHART-4qXRhG0hDm9_VlOdo8BbY
+    - CHART-7jD4EV7HB6cI11tvWjRAJ
+    id: ROW-zseQ9bQMSIGini3jjgr0q
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '160':
+      id: 160
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '161':
+      id: 161
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '162':
+      id: 162
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '163':
+      id: 163
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '165':
+      id: 165
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '283':
+      id: 283
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '284':
+      id: 284
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 285
+        - 286
+        - 403
+        - 404
+        - 405
+    '286':
+      id: 286
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 403
+        - 404
+        - 405
+    '403':
+      id: 403
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 404
+        - 405
+    '404':
+      id: 404
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 405
+    '405':
+      id: 405
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 160
+        - 161
+        - 162
+        - 163
+        - 164
+        - 165
+        - 280
+        - 281
+        - 282
+        - 283
+        - 284
+        - 285
+        - 286
+        - 403
+        - 404
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 160
+    - 161
+    - 162
+    - 163
+    - 164
+    - 165
+    - 280
+    - 281
+    - 282
+    - 283
+    - 284
+    - 285
+    - 286
+    - 403
+    - 404
+    - 405
+  map_label_colors:
+    SUM(event_count): '#1FA8C9'
+    SUM(skater_count): '#1FA8C9'
+    SUM(officials_count): '#1FA8C9'
+    Central Pacific: '#AAE2D2'
+    Southwest Pacific: '#71CFB4'
+    Southwestern: '#C6ECE1'
+    New England: '#A9D3E1'
+    North Atlantic: '#5CC0DA'
+    Northwest Pacific: '#7DCDE1'
+    Upper Great Lakes: '#20A7C9'
+    Eastern Great Lakes: '#2893B3'
+    South Atlantic: '#004960'
+    Intermediate: '#2893B3'
+    Elite: '#5CC0DA'
+    Advanced: '#7DCDE1'
+    Beginner: '#A9D3E1'
+    count: '#004960'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp E / Free SkateJudges' Details
+    : '#2893B3'
+    Auto Refresh Event: '#20A7C9'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp F   #113 / Free SkateJudges'' Details'
+    : '#C6ECE1'
+    ? 2020 Southwestern Regional Singles Challenge10/16/2019 - 10/20/2019  (MDT)(17-27)
+      Intermediate Ladies / Free SkateJudges' Details
+    : '#AAE2D2'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies   #117-119 / Short ProgramJudges'' Details'
+    : '#71CFB4'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies QR Grp B / Free SkateJudges' Details
+    : '#2FC096'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp E   #112 / Free SkateJudges'' Details'
+    : '#178F7A'
+    ? 2020 North Atlantic Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#067162'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp D   #111 / Free SkateJudges'' Details'
+    : '#71CFB4'
+    ? 2020 Northwest Pacific Regional Singles Challenge10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#2FC096'
+    ? 2020 Southwest Pacific Regional Singles Challenge10/16/2019 - 10/20/2019  (PDT)Intermediate
+      Ladies QR Grp A / Free SkateJudges' Details
+    : '#178F7A'
+    ? 2020 Southwestern Regional Singles Challenge10/16/2019 - 10/20/2019  (MDT)(02)
+      Intermediate Ladies QR Grp B / Free SkateJudges' Details
+    : '#067162'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#5CC0DA'
+    ? 2020 North Atlantic Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp B / Free SkateJudges' Details
+    : '#7DCDE1'
+    ? 2020 Southwest Pacific Regional Singles Challenge10/16/2019 - 10/20/2019  (PDT)Intermediate
+      Ladies QR Grp B / Free SkateJudges' Details
+    : '#AAE2D2'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies QR Grp C / Free SkateJudges' Details
+    : '#5CC0DA'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp C / Free SkateJudges' Details
+    : '#7DCDE1'
+    ? 2020 Northwest Pacific Regional Singles Challenge10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#A9D3E1'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp D / Free SkateJudges' Details
+    : '#C6ECE1'
+    ? 2020 Southwestern Regional Singles Challenge10/16/2019 - 10/20/2019  (MDT)(17-27)
+      Intermediate Ladies / Short ProgramJudges' Details
+    : '#AAE2D2'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp B / Free SkateJudges' Details
+    : '#2893B3'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies QR Grp A / Free SkateJudges' Details
+    : '#2FC096'
+    ? 2020 Southwestern Regional Singles Challenge10/16/2019 - 10/20/2019  (MDT)(03)
+      Intermediate Ladies QR Grp C / Free SkateJudges' Details
+    : '#178F7A'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp A / Free SkateJudges' Details
+    : '#067162'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#20A7C9'
+    ? 2020 North Atlantic Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#2893B3'
+    ? 2020 North Atlantic Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp A / Free SkateJudges' Details
+    : '#20A7C9'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp C   #110 / Free SkateJudges'' Details'
+    : '#7DCDE1'
+    ? 2020 Southwest Pacific Regional Singles Challenge10/16/2019 - 10/20/2019  (PDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#A9D3E1'
+    ? 2020 North Atlantic Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies QR Grp C / Free SkateJudges' Details
+    : '#C6ECE1'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies QR Grp B / Free SkateJudges' Details
+    : '#71CFB4'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#2FC096'
+    ? 2020 Southwestern Regional Singles Challenge10/16/2019 - 10/20/2019  (MDT)(01)
+      Intermediate Ladies QR Grp A / Free SkateJudges' Details
+    : '#178F7A'
+    ? 2020 Central Pacific Regional Singles Challenge10/23/2019 - 10/27/2019  (MDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#067162'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies QR Grp D / Free SkateJudges' Details
+    : '#178F7A'
+    ? 2020 Central Pacific Regional Singles Challenge10/23/2019 - 10/27/2019  (MDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#067162'
+    ? 2020 Southwest Pacific Regional Singles Challenge10/16/2019 - 10/20/2019  (PDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#20A7C9'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies QR Grp D / Free SkateJudges' Details
+    : '#5CC0DA'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp A   #108 / Free SkateJudges'' Details'
+    : '#A9D3E1'
+    2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate Ladies / Free SkateJudges' Details: '#C6ECE1'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies QR Grp B   #109 / Free SkateJudges'' Details'
+    : '#AAE2D2'
+    ? 2020 Eastern Great Lakes Regional Singles Challeng10/02/2019 - 10/06/2019  (MDT)Intermediate
+      Ladies / Free SkateJudges' Details
+    : '#71CFB4'
+    ? '2020 South Atlantic Regional Singles Challenge09/30/2019 - 10/06/2019  (EDT)Intermediate
+      Ladies   #117-119 / Free SkateJudges'' Details'
+    : '#2FC096'
+    ? 2020 New England Regional Singles Challenge10/22/2019 - 10/26/2019  (EDT)Intermediate
+      Ladies / Short ProgramJudges' Details
+    : '#AAE2D2'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies QR Grp C / Free SkateJudges' Details
+    : '#71CFB4'
+    ? 2020 Upper Great Lakes Regional Singles Challenge10/23/2019 - 10/27/2019  (CDT)Intermediate
+      Ladies QR Grp A / Free SkateJudges' Details
+    : '#2FC096'
+    ? 2020 Southwest Pacific Regional Singles Challenge10/16/2019 - 10/20/2019  (PDT)Intermediate
+      Ladies QR Grp C / Free SkateJudges' Details
+    : '#178F7A'
+    GOE: '#1FA8C9'
+    SUM(csv_count): '#1f77b4'
+    SUM(live_count): '#ff7f0e'
+  shared_label_colors:
+  - Advanced
+  - Beginner
+  - Central Pacific
+  - Eastern Great Lakes
+  - Elite
+  - Intermediate
+  - New England
+  - North Atlantic
+  - Northwest Pacific
+  - South Atlantic
+  - Southwest Pacific
+  - Southwestern
+  - Upper Great Lakes
+  - count
+  color_scheme: ''
+  refresh_frequency: 0
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-5CuKmHefA9QdMau9hYlF5
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+      sortAscending: true
+    name: Event
+    filterType: filter_select
+    targets:
+    - column:
+        name: Event
+      datasetUuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      excluded: []
+      rootPath:
+      - ROOT_ID
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 401
+    - 165
+    - 402
+    - 161
+    - 162
+    - 163
+    - 280
+    - 164
+    - 284
+    - 403
+    - 405
+    - 404
+    - 283
+    - 281
+    - 160
+    - 282
+    - 285
+    - 286
+    tabsInScope: []
+  - id: NATIVE_FILTER-lfhAq2lEpwV4RDM1YKANo
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Region Name
+    filterType: filter_select
+    targets:
+    - column:
+        name: Region
+      datasetUuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 401
+    - 165
+    - 402
+    - 161
+    - 162
+    - 163
+    - 280
+    - 164
+    - 284
+    - 403
+    - 405
+    - 404
+    - 283
+    - 281
+    - 160
+    - 282
+    - 285
+    - 286
+    tabsInScope: []
+  - id: NATIVE_FILTER-jFQXq8rM37xYDwM3CwSca
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Level
+    filterType: filter_select
+    targets:
+    - column:
+        name: Level
+      datasetUuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 401
+    - 165
+    - 402
+    - 161
+    - 162
+    - 163
+    - 280
+    - 164
+    - 284
+    - 403
+    - 405
+    - 404
+    - 283
+    - 281
+    - 160
+    - 282
+    - 285
+    - 286
+    tabsInScope: []
+  - id: NATIVE_FILTER-7N8TMkLFvNjG2hK8r_JX6
+    controlValues:
+      enableEmptyFilter: false
+    name: Event Date
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 401
+    - 165
+    - 402
+    - 161
+    - 162
+    - 163
+    - 280
+    - 164
+    - 284
+    - 403
+    - 405
+    - 404
+    - 283
+    - 281
+    - 160
+    - 282
+    - 285
+    - 286
+    tabsInScope: []
+version: 1.0.0

@@ -1,0 +1,50 @@
+slice_name: 'Skater Metrics: Average, Median, and Growth Rate by Placement'
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 28__table
+  viz_type: table
+  query_mode: aggregate
+  groupby:
+  - Skater_Placement
+  temporal_columns_lookup: {}
+  metrics:
+  - Median_vs_Average_Diff
+  - Growth_Rate
+  - Median_Score
+  - Average_Score
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  row_limit: 1000
+  table_timestamp_format: smart_date
+  allow_render_html: true
+  column_config:
+    Skater_Placement:
+      horizontalAlign: center
+    Median_vs_Average_Diff:
+      horizontalAlign: center
+    Growth_Rate:
+      horizontalAlign: center
+    Median_Score:
+      horizontalAlign: center
+    Average_Score:
+      horizontalAlign: center
+  show_cell_bars: true
+  color_pn: true
+  conditional_formatting:
+  - column: Median_vs_Average_Diff
+    colorScheme: Green
+    operator: None
+  comparison_type: values
+  extra_form_data: {}
+  dashboards:
+  - 14
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Skater_Placement"],"metrics":["Median_vs_Average_Diff","Growth_Rate","Median_Score","Average_Score"],"orderby":[["Median_vs_Average_Diff",false]],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"28__table","viz_type":"table","query_mode":"aggregate","groupby":["Skater_Placement"],"temporal_columns_lookup":{},"metrics":["Median_vs_Average_Diff","Growth_Rate","Median_Score","Average_Score"],"all_columns":[],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"row_limit":1000,"table_timestamp_format":"smart_date","allow_render_html":true,"column_config":{"Skater_Placement":{"horizontalAlign":"center"},"Median_vs_Average_Diff":{"horizontalAlign":"center"},"Growth_Rate":{"horizontalAlign":"center"},"Median_Score":{"horizontalAlign":"center"},"Average_Score":{"horizontalAlign":"center"}},"show_cell_bars":true,"color_pn":true,"conditional_formatting":[{"column":"Median_vs_Average_Diff","colorScheme":"Green","operator":"None"}],"comparison_type":"values","extra_form_data":{},"dashboards":[14],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 13d6ed97-0297-4c81-845a-0593f16f2788
+version: 1.0.0
+dataset_uuid: 77ef1e4c-aa87-439d-8345-2dc133748de8

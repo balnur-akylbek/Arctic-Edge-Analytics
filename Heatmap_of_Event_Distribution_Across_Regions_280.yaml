@@ -1,0 +1,53 @@
+slice_name: Heatmap of Event Distribution Across Regions
+description: null
+certified_by: null
+certification_details: null
+viz_type: deck_heatmap
+params:
+  datasource: 26__table
+  viz_type: deck_heatmap
+  spatial:
+    type: latlong
+    latCol: latitude
+    lonCol: longitude
+  size: count
+  row_limit: 10000
+  filter_nulls: true
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: Event_Date
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_qdhmvsvyk1r_huemhjztebf
+  intensity: 1
+  radius_pixels: 40
+  mapbox_style: mapbox://styles/mapbox/streets-v9
+  viewport:
+    longitude: 6.85236157047845
+    latitude: 31.222656842808707
+    zoom: 1
+    bearing: 0
+    pitch: 0
+  linear_color_scheme: superset_seq_1
+  autozoom: true
+  aggregation: sum
+  js_columns:
+  - Region
+  - Level
+  - Event_Date
+  extra_form_data: {}
+  dashboards:
+  - 13
+query_context: '{"datasource":{"id":26,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Event_Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"26__table","viz_type":"deck_heatmap","spatial":{"type":"latlong","latCol":"latitude","lonCol":"longitude"},"size":"count","row_limit":10000,"filter_nulls":true,"adhoc_filters":[{"expressionType":"SIMPLE","subject":"Event_Date","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_qdhmvsvyk1r_huemhjztebf"}],"intensity":1,"radius_pixels":40,"mapbox_style":"mapbox://styles/mapbox/streets-v9","viewport":{"longitude":6.85236157047845,"latitude":31.222656842808707,"zoom":1,"bearing":0,"pitch":0},"linear_color_scheme":"superset_seq_1","autozoom":true,"aggregation":"sum","js_columns":["Region","Level","Event_Date"],"extra_form_data":{},"dashboards":[13],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 518975f0-8347-4b42-89e9-4c516a8c025c
+version: 1.0.0
+dataset_uuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92

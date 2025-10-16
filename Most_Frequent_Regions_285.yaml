@@ -1,0 +1,31 @@
+slice_name: Most Frequent Regions
+description: null
+certified_by: null
+certification_details: null
+viz_type: word_cloud
+params:
+  datasource: 26__table
+  viz_type: word_cloud
+  series: Region
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    subject: Event_Date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  row_limit: 10000
+  size_from: 10
+  size_to: 70
+  rotation: square
+  color_scheme: supersetAndPresetColors
+  extra_form_data: {}
+  dashboards:
+  - 13
+query_context: '{"datasource":{"id":26,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Event_Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Region"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"26__table","viz_type":"word_cloud","series":"Region","metric":"count","adhoc_filters":[{"clause":"WHERE","subject":"Event_Date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"row_limit":10000,"size_from":10,"size_to":70,"rotation":"square","color_scheme":"supersetAndPresetColors","extra_form_data":{},"dashboards":[13],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 00aed193-241d-4c83-99a7-36ec759e2e41
+version: 1.0.0
+dataset_uuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92

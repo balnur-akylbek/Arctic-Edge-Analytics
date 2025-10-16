@@ -1,0 +1,65 @@
+slice_name: "\u0420\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\
+  \u0435 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432 \u043F\u043E\
+  \ \u0440\u0435\u0433\u0438\u043E\u043D\u0430\u043C"
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 35__table
+  viz_type: pie
+  slice_id: 160
+  groupby:
+  - Region
+  metric:
+    aggregate: SUM
+    column:
+      advanced_data_type: null
+      changed_on: '2025-10-15T14:54:53.902951'
+      column_name: region_count
+      created_on: '2025-10-15T14:54:53.902941'
+      description: null
+      expression: null
+      extra: '{}'
+      filterable: true
+      groupby: true
+      id: 865
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: LONGINTEGER
+      type_generic: 0
+      uuid: 34e8e051-19ca-4ad5-83e6-480084fbdf59
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: SUM(region_count)
+    optionName: metric_evhm9hdxo8t_tsnezhy9ear
+    sqlExpression: null
+  adhoc_filters: []
+  row_limit: 50000
+  sort_by_metric: true
+  color_scheme: supersetAndPresetColors
+  show_labels_threshold: 2
+  roseType: null
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key_percent
+  number_format: .3s
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: false
+  outerRadius: 70
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":35,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Region"],"metrics":[{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2025-10-15T14:54:53.902951","column_name":"region_count","created_on":"2025-10-15T14:54:53.902941","description":null,"expression":null,"extra":"{}","filterable":true,"groupby":true,"id":865,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"LONGINTEGER","type_generic":0,"uuid":"34e8e051-19ca-4ad5-83e6-480084fbdf59","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(region_count)","optionName":"metric_evhm9hdxo8t_tsnezhy9ear","sqlExpression":null}],"orderby":[[{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2025-10-15T14:54:53.902951","column_name":"region_count","created_on":"2025-10-15T14:54:53.902941","description":null,"expression":null,"extra":"{}","filterable":true,"groupby":true,"id":865,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"LONGINTEGER","type_generic":0,"uuid":"34e8e051-19ca-4ad5-83e6-480084fbdf59","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(region_count)","optionName":"metric_evhm9hdxo8t_tsnezhy9ear","sqlExpression":null},false]],"annotation_layers":[],"row_limit":50000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"35__table","viz_type":"pie","slice_id":160,"groupby":["Region"],"metric":{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2025-10-15T14:54:53.902951","column_name":"region_count","created_on":"2025-10-15T14:54:53.902941","description":null,"expression":null,"extra":"{}","filterable":true,"groupby":true,"id":865,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"LONGINTEGER","type_generic":0,"uuid":"34e8e051-19ca-4ad5-83e6-480084fbdf59","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"SUM(region_count)","optionName":"metric_evhm9hdxo8t_tsnezhy9ear","sqlExpression":null},"adhoc_filters":[],"row_limit":50000,"sort_by_metric":true,"color_scheme":"supersetAndPresetColors","show_labels_threshold":2,"roseType":null,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key_percent","number_format":".3s","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":false,"outerRadius":70,"innerRadius":30,"extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 4dc545d8-9ed4-4dc4-8d25-b76a121670ac
+version: 1.0.0
+dataset_uuid: 03fcd94c-60bc-4179-964c-81b360bcb92c

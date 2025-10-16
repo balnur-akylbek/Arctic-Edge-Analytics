@@ -1,0 +1,45 @@
+slice_name: Heatmap of Events by Region and Level
+description: null
+certified_by: null
+certification_details: null
+viz_type: heatmap_v2
+params:
+  datasource: 26__table
+  viz_type: heatmap_v2
+  slice_id: 281
+  x_axis: Region
+  groupby: Level
+  metric: count
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Event_Date
+  row_limit: 10000
+  normalize_across: heatmap
+  legend_type: continuous
+  linear_color_scheme: schemeYlGnBu
+  xscale_interval: -1
+  yscale_interval: -1
+  left_margin: auto
+  bottom_margin: auto
+  value_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  x_axis_time_format: smart_date
+  show_legend: true
+  show_percentage: false
+  show_values: false
+  normalized: false
+  extra_form_data: {}
+  dashboards:
+  - 13
+query_context: '{"datasource":{"id":26,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Event_Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"Region","label":"Region","expressionType":"SQL"},"Level"],"metrics":["count"],"orderby":[],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"rank","options":{"metric":"count"}}]}],"form_data":{"datasource":"26__table","viz_type":"heatmap_v2","slice_id":281,"x_axis":"Region","groupby":"Level","metric":"count","adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Event_Date"}],"row_limit":10000,"normalize_across":"heatmap","legend_type":"continuous","linear_color_scheme":"schemeYlGnBu","xscale_interval":-1,"yscale_interval":-1,"left_margin":"auto","bottom_margin":"auto","value_bounds":[null,null],"y_axis_format":"SMART_NUMBER","x_axis_time_format":"smart_date","show_legend":true,"show_percentage":false,"show_values":false,"normalized":false,"extra_form_data":{},"dashboards":[13],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 27aa0512-11d0-4681-b3f1-bfc60963c055
+version: 1.0.0
+dataset_uuid: 1b5c6d2b-dcbe-43a6-9b0a-638df09a9e92
